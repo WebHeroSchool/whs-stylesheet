@@ -1,0 +1,53 @@
+  .header__title {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  }
+
+  .header__subtitle {
+  color: blue;
+  text-align: center;
+  }
+  
+  .header__button {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  }
+  
+  .description__title {
+  text-align: center;
+  font-size: 15px;
+  }
+  
+  button {
+  height: 25px;
+  background: green;
+  color: white;
+  }
+ 
+  .footer__soc-button {
+  color: white;
+  }
+ 
+  .footer__soc-button--vk {
+  background: blue;
+  }
+ 
+  .footer__soc-button--insta {
+  background: purple;
+  }
+  
+  .footer__soc-button--linked {
+  background: navy;
+  }
+  
+  .footer__news {
+  color: green;
+  }
+  
+  .footer__author {
+  color: blue;
+  font-size: 12px;
+  }
