@@ -1,12 +1,7 @@
-  .header__title {
-  text-align: center;
-  color: green;
-  font-size: 20px;
-  }
-
-  .header__subtitle {
+ .header__subtitle {
   color: blue;
   text-align: center;
+  font-family: 'Comfortaa', cursive;
   }
   
   .header__button {
@@ -21,18 +16,20 @@
   font-size: 15px;
   }
   
-  button {
-  height: 25px;
-  background: green;
-  color: white;
-  }
+button {
+    text-align: center;
+    background: green;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
  
-  .footer__soc-button {
-  color: white;
-  }
+ .footer__soc-button {
+ color: white;
+ }
  
-  .footer__soc-button--vk {
+ .footer__soc-button--vk {
   background: blue;
+  left: 50%;
   }
  
   .footer__soc-button--insta {
@@ -48,6 +45,32 @@
   }
   
   .footer__author {
+  font-family: 'Poiret One', cursive;
   color: blue;
   font-size: 12px;
+  }
+  
+  p {
+    color: #355C01;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+   span {
+    color: red;
+    }
+    
+  h1, h5 {
+      font-family: 'Poiret One', cursive;
+      text-align: center;
+      color: green;
+  }
+  
+  div, h3 {
+  text-align: center;
+  }
+  
+  section {
+    font-family: 'Poiret One', cursive;
+    background-image: url ("https://kzgroup.ru/rus/i/b5/74.jpg.png");
   }
