@@ -1,9 +1,13 @@
+body, button {
+  background: #FEFFE4;
+  font-family: 'Comfortaa', cursive;
+  } /* Шрифт Comfortaa применён для всего документа */
+  
   .header__title {
   text-align: center;
-  color: green;
-  font-size: 20px;
-  }
-
+  font-family: 'Poiret One', cursive;
+  } /* Шрифт Poiret One применен для заголовка */
+  
   .header__subtitle {
   color: blue;
   text-align: center;
@@ -21,18 +25,19 @@
   font-size: 15px;
   }
   
-  button {
-  height: 25px;
+button {
+  text-align: center;
   background: green;
   color: white;
   }
  
-  .footer__soc-button {
-  color: white;
-  }
+ .footer__soc-button {
+ color: white;
+ }
  
-  .footer__soc-button--vk {
+ .footer__soc-button--vk {
   background: blue;
+  left: 50%;
   }
  
   .footer__soc-button--insta {
@@ -50,4 +55,27 @@
   .footer__author {
   color: blue;
   font-size: 12px;
+  }
+  
+  p {
+   color: #355C01;
+   text-decoration: none;
+   font-weight: bold;
+   }
+    
+  span {
+  color: red;
+  }
+    
+  h1, h5 {
+  text-align: center;
+  color: green;
+  }
+  
+  div, h3 {
+  text-align: center;
+  }
+  
+  section {
+  background-image: url ("https://kzgroup.ru/rus/i/b5/74.jpg.png");
   }
